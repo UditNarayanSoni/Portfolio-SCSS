@@ -1,0 +1,28 @@
+.home {
+  height: 100%;
+  padding-top: 50vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background:
+    linear-gradient(to right, rgba($primary-clr, 0.9), rgba($primary-clr, 0.2)),
+    url('../Images/UNS.jpg') center top;
+  background-size: cover;
+
+  h2 {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  &_name {
+    font-size: 4.5rem;
+    padding-bottom: 0.9rem;
+    margin-bottom: 0.2rem;
+    border-bottom: 2px solid #fff;
+
+    &-first{
+      color: $secondary-clr;
+      font-weight: 650;
+    }
+  }
+}
